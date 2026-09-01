@@ -2,6 +2,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { Step, Walkthrough } from './types'
 import { emptyWalkthrough, newId } from './types'
 import { SIZE_WARN_BYTES, download, formatBytes, ingestImage, parseWalkthrough, serialize } from './format'
+// Inlined at build time as text, so the live site can demo itself without a
+// single network call. It goes through the same parser as a real import.
+import exampleRaw from '../examples/example.json?raw'
 import Builder from './Builder'
 import Player from './Player'
 import Quiz from './Quiz'
@@ -40,9 +43,9 @@ export default function App() {
     }
   }, [])
 
-  const importJson = useCallback(async (file: File) => {
+  const load = useCallback((text: string) => {
     try {
-      const next = parseWalkthrough(await file.text())
+      const next = parseWalkthrough(text)
       setWt(next)
       setSelectedId(next.steps[0]?.id ?? null)
       setScreen('build')
@@ -51,6 +54,8 @@ export default function App() {
       setError(e instanceof Error ? e.message : 'That file could not be imported.')
     }
   }, [])
+
+  const importJson = useCallback(async (file: File) => load(await file.text()), [load])
 
   const takeFiles = useCallback(
     (list: FileList | null, replaceId?: string) => {
@@ -152,6 +157,7 @@ export default function App() {
           selectedId={selectedId}
           setSelectedId={setSelectedId}
           onPickImages={takeFiles}
+          onLoadExample={() => load(exampleRaw)}
         />
       )}
       {screen === 'play' && (

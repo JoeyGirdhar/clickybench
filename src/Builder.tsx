@@ -18,13 +18,14 @@ export function renumberBadges(steps: Step[]): Step[] {
 }
 
 export default function Builder({
-  wt, setWt, selectedId, setSelectedId, onPickImages,
+  wt, setWt, selectedId, setSelectedId, onPickImages, onLoadExample,
 }: {
   wt: Walkthrough
   setWt: (w: Walkthrough) => void
   selectedId: string | null
   setSelectedId: (id: string | null) => void
   onPickImages: (files: FileList | null, replaceId?: string) => void
+  onLoadExample: () => void
 }) {
   const [tool, setTool] = useState<AnnotationKind>('arrow')
   const dragFrom = useRef<number | null>(null)
@@ -154,9 +155,14 @@ export default function Builder({
               <p className="mb-2 text-neutral-300">No steps yet.</p>
               <p>
                 Take a screenshot and paste it here, drop image files on the window, or use Add
-                screenshots. To see a finished walkthrough, hit Import and open{' '}
-                <span className="text-neutral-400">examples/example.json</span>.
+                screenshots. Import opens any exported <span className="text-neutral-400">.json</span>.
               </p>
+              <button
+                onClick={onLoadExample}
+                className="mt-4 rounded border border-neutral-700 px-3 py-1.5 text-neutral-300 hover:border-neutral-500"
+              >
+                Load the example walkthrough
+              </button>
             </div>
           </div>
         ) : (
