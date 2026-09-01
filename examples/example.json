@@ -1,0 +1,67 @@
+{
+  "format": "clickybench/walkthrough",
+  "version": 1,
+  "title": "One-variable stats on an online TI-84",
+  "createdAt": "2026-08-31T00:00:00.000Z",
+  "steps": [
+    {
+      "id": "ex-1",
+      "intent": "open the STAT menu",
+      "note": "Everything to do with lists and one-variable summaries starts here, not in the main calculation screen.",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjEwMDAiIHZpZXdCb3g9IjAgMCAxNjAwIDEwMDAiPgo8cmVjdCB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMDAwIiBmaWxsPSIjMTYxODFjIi8+CjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjE1NjgiIGhlaWdodD0iOTY4IiBmaWxsPSJub25lIiBzdHJva2U9IiMzYTNmNDYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iMTQgMTIiIHJ4PSIxMCIvPgo8dGV4dCB4PSI4MDAiIHk9IjQ3NCIgZmlsbD0iIzZiNzI4MCIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI1MiIgZm9udC13ZWlnaHQ9IjYwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UExBQ0VIT0xERVIgU0NSRUVOU0hPVCAxPC90ZXh0Pgo8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZmlsbD0iIzRiNTE1NyIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+c3dhcCB0aGlzIGZvciBhIHJlYWwgc2NyZWVuc2hvdCAmIzgyMTI7IHNlZSB0aGUgUkVBRE1FPC90ZXh0Pgo8cmVjdCB4PSIyNjIiIHk9IjI3NCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MiIgcng9IjgiIGZpbGw9IiMyMzI2MmIiIHN0cm9rZT0iIzU2NWM2NCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjx0ZXh0IHg9IjM1MiIgeT0iMzA4IiBmaWxsPSIjOGI5MzljIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZiwgc3lzdGVtLXVpLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj50YXJnZXQgMTwvdGV4dD4KPC9zdmc+",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "annotation": {
+        "kind": "arrow",
+        "x1": 8,
+        "y1": 62,
+        "x2": 22,
+        "y2": 33
+      }
+    },
+    {
+      "id": "ex-2",
+      "intent": "choose 1: Edit to open the list editor",
+      "note": "Edit is the list editor. CALC, one tab over, is where the summary stats live once the data is entered.",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjEwMDAiIHZpZXdCb3g9IjAgMCAxNjAwIDEwMDAiPgo8cmVjdCB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMDAwIiBmaWxsPSIjMTYxODFjIi8+CjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjE1NjgiIGhlaWdodD0iOTY4IiBmaWxsPSJub25lIiBzdHJva2U9IiMzYTNmNDYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iMTQgMTIiIHJ4PSIxMCIvPgo8dGV4dCB4PSI4MDAiIHk9IjQ3NCIgZmlsbD0iIzZiNzI4MCIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI1MiIgZm9udC13ZWlnaHQ9IjYwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UExBQ0VIT0xERVIgU0NSRUVOU0hPVCAyPC90ZXh0Pgo8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZmlsbD0iIzRiNTE1NyIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+c3dhcCB0aGlzIGZvciBhIHJlYWwgc2NyZWVuc2hvdCAmIzgyMTI7IHNlZSB0aGUgUkVBRE1FPC90ZXh0Pgo8cmVjdCB4PSI0NTQiIHk9IjQzNCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MiIgcng9IjgiIGZpbGw9IiMyMzI2MmIiIHN0cm9rZT0iIzU2NWM2NCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjx0ZXh0IHg9IjU0NCIgeT0iNDY4IiBmaWxsPSIjOGI5MzljIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZiwgc3lzdGVtLXVpLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj50YXJnZXQgMjwvdGV4dD4KPC9zdmc+",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "annotation": {
+        "kind": "badge",
+        "x": 34,
+        "y": 46,
+        "n": 1
+      }
+    },
+    {
+      "id": "ex-3",
+      "intent": "type the values into L1, one per row",
+      "note": "Press Enter after each value. If L1 already has data in it, clear the column first or the stats will be wrong.",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjEwMDAiIHZpZXdCb3g9IjAgMCAxNjAwIDEwMDAiPgo8cmVjdCB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMDAwIiBmaWxsPSIjMTYxODFjIi8+CjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjE1NjgiIGhlaWdodD0iOTY4IiBmaWxsPSJub25lIiBzdHJva2U9IiMzYTNmNDYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iMTQgMTIiIHJ4PSIxMCIvPgo8dGV4dCB4PSI4MDAiIHk9IjQ3NCIgZmlsbD0iIzZiNzI4MCIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI1MiIgZm9udC13ZWlnaHQ9IjYwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UExBQ0VIT0xERVIgU0NSRUVOU0hPVCAzPC90ZXh0Pgo8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZmlsbD0iIzRiNTE1NyIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+c3dhcCB0aGlzIGZvciBhIHJlYWwgc2NyZWVuc2hvdCAmIzgyMTI7IHNlZSB0aGUgUkVBRE1FPC90ZXh0Pgo8cmVjdCB4PSIzOTAiIHk9IjUyNCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MiIgcng9IjgiIGZpbGw9IiMyMzI2MmIiIHN0cm9rZT0iIzU2NWM2NCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjx0ZXh0IHg9IjQ4MCIgeT0iNTU4IiBmaWxsPSIjOGI5MzljIiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZiwgc3lzdGVtLXVpLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj50YXJnZXQgMzwvdGV4dD4KPC9zdmc+",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "annotation": {
+        "kind": "spotlight",
+        "x": 16,
+        "y": 30,
+        "w": 28,
+        "h": 50
+      }
+    },
+    {
+      "id": "ex-4",
+      "intent": "run 1-Var Stats on L1 from the CALC tab",
+      "note": "The first line of the output is the mean. Scroll down for the median and the quartiles.",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjEwMDAiIHZpZXdCb3g9IjAgMCAxNjAwIDEwMDAiPgo8cmVjdCB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMDAwIiBmaWxsPSIjMTYxODFjIi8+CjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjE1NjgiIGhlaWdodD0iOTY4IiBmaWxsPSJub25lIiBzdHJva2U9IiMzYTNmNDYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iMTQgMTIiIHJ4PSIxMCIvPgo8dGV4dCB4PSI4MDAiIHk9IjQ3NCIgZmlsbD0iIzZiNzI4MCIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI1MiIgZm9udC13ZWlnaHQ9IjYwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UExBQ0VIT0xERVIgU0NSRUVOU0hPVCA0PC90ZXh0Pgo8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZmlsbD0iIzRiNTE1NyIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+c3dhcCB0aGlzIGZvciBhIHJlYWwgc2NyZWVuc2hvdCAmIzgyMTI7IHNlZSB0aGUgUkVBRE1FPC90ZXh0Pgo8cmVjdCB4PSI5OTgiIHk9IjM3NCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MiIgcng9IjgiIGZpbGw9IiMyMzI2MmIiIHN0cm9rZT0iIzU2NWM2NCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjx0ZXh0IHg9IjEwODgiIHk9IjQwOCIgZmlsbD0iIzhiOTM5YyIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+dGFyZ2V0IDQ8L3RleHQ+Cjwvc3ZnPg==",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "annotation": {
+        "kind": "ellipse",
+        "cx": 68,
+        "cy": 40,
+        "rx": 13,
+        "ry": 9
+      }
+    }
+  ]
+}
